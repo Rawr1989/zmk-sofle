@@ -51,13 +51,13 @@ layers:
   - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - RALT FSLH
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - Accents
+  - RUNES
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
@@ -65,7 +65,7 @@ layers:
   - layer2
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  Accents:
+  RUNES:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
@@ -86,11 +86,11 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - LA QUEST
-  - LA EXCL
-  - LU ACUTE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RALT FSLH
+  - '?'
+  - RALT 1
+  - '!'
+  - '&AT'
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
   - F11
@@ -99,11 +99,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - L NTIL
-  - LA ACUTE
-  - LE ACUTE
-  - LI ACUTE
-  - LO ACUTE
+  - (
+  - )
+  - LCBR
+  - RCBR
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,8 +112,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - U NTIL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -317,7 +317,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - Accents
+  - RUNES
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
