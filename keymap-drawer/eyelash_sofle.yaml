@@ -90,7 +90,7 @@ layers:
   - '?'
   - RALT 1
   - '!'
-  - '&AT'
+  - '@'
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
   - F11
@@ -101,8 +101,8 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - (
   - )
-  - LCBR
-  - RCBR
+  - _
+  - MINUS RALT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
@@ -114,8 +114,8 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
