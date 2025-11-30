@@ -67,9 +67,9 @@
         layer_1 {
             bindings = <
 &kp ESC     &kp F1    &kp F2        &kp F3         &kp F4      &kp F5       &mmv MOVE_UP     &trans               &trans        &trans                &trans           &trans        &kp BACKSPACE
-&kp TAB     &kp F6    &kp F7        &kp F8         &kp F9      &kp F10      &mmv MOVE_DOWN   &kp RALT FSLH        &kp QMARK     &kp RALT NUMBER_1     &kp EXCL         &AT           &kp BSLH
-&kp LSHFT   &kp F11   &kp F12       &trans         &trans      &trans       &mmv MOVE_LEFT   &kp LPAR             &kp RPAR      &kp LCBR              &kp RCBR         &trans        &kp APOS
-&kp LCTRL   &trans    &trans        &trans         &trans      &trans       &mmv MOVE_RIGHT  &kp LBKT             &kp RBKT      &trans                &trans           &trans        &kp ENTER
+&kp TAB     &kp F6    &kp F7        &kp F8         &kp F9      &kp F10      &mmv MOVE_DOWN   &kp RALT FSLH        &kp QMARK     &kp RALT NUMBER_1     &kp EXCL         &kp AT        &kp BSLH
+&kp LSHFT   &kp F11   &kp F12       &trans         &trans      &trans       &mmv MOVE_LEFT   &kp LPAR             &kp RPAR      &kp UNDERSCORE        &kp MINUS RALT   &trans        &kp APOS
+&kp LCTRL   &trans    &trans        &trans         &trans      &trans       &mmv MOVE_RIGHT  &kp LBKT             &kp RBKT      &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans        &kp ENTER
 &kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp RIGHT_ALT  &trans      &kp SPACE    &mkp LCLK        &kp SPACE            &kp ENTER     &trans                &kp RIGHT_SHIFT  &kp DELETE
             >;
 
