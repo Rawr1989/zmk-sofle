@@ -51,7 +51,7 @@ layers:
   - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - RALT FSLH
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-caps$$
