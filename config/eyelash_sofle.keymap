@@ -56,7 +56,7 @@
 &kp ESC     &kp N1    &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q     &kp W         &kp F         &kp P   &kp B        &kp DOWN_ARROW   &kp J      &kp L      &kp U      &kp Y            &kp SEMI    &kp BSLH
 &kp LSHFT   &kp A     &kp R         &kp S         &kp T   &kp G        &kp LEFT_ARROW   &kp M      &kp N      &kp E      &kp I            &kp O       &kp APOS
-&kp LCTRL   &kp Z     &kp X         &kp C         &kp D   &kp V        &kp RIGHT_ARROW  &kp K      &kp H      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL   &kp Z     &kp X         &kp C         &kp D   &kp V        &kp RIGHT_ARROW  &kp K      &kp H      &kp COMMA  &kp DOT          &kp RALT FSLH    &kp ENTER
 &kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
@@ -66,14 +66,14 @@
 
         layer_1 {
             bindings = <
-&kp ESC     &kp F1    &kp F2        &kp F3         &kp F4  &kp F5       &mmv MOVE_UP     &trans        &trans        &trans        &trans           &trans        &kp BACKSPACE
-&kp TAB     &kp F6    &kp F7        &kp F8         &kp F9  &kp F10      &mmv MOVE_DOWN   &kp LA_QUEST  &kp LA_EXCL   &kp LU_ACUTE  &trans           &trans        &kp BSLH
-&kp LSHFT   &kp F11   &kp F12       &trans         &trans  &trans       &mmv MOVE_LEFT   &kp L_NTIL    &kp LA_ACUTE  &kp LE_ACUTE  &kp LI_ACUTE     &kp LO_ACUTE  &kp APOS
-&kp LCTRL   &trans    &trans        &trans         &trans  &trans       &mmv MOVE_RIGHT  &kp U_NTIL    &trans        &trans        &trans           &trans        &kp ENTER
-&kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp RIGHT_ALT  &trans  &kp SPACE    &mkp LCLK        &kp SPACE     &kp ENTER     &trans        &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp F1    &kp F2        &kp F3         &kp F4      &kp F5       &mmv MOVE_UP     &trans               &trans        &trans                &trans           &trans        &kp BACKSPACE
+&kp TAB     &kp F6    &kp F7        &kp F8         &kp F9      &kp F10      &mmv MOVE_DOWN   &kp RALT FSLH        &kp QMARK     &kp RALT NUMBER_1     &kp EXCL         &AT           &kp BSLH
+&kp LSHFT   &kp F11   &kp F12       &trans         &trans      &trans       &mmv MOVE_LEFT   &kp LPAR             &kp RPAR      &kp LCBR              &kp RCBR         &trans        &kp APOS
+&kp LCTRL   &trans    &trans        &trans         &trans      &trans       &mmv MOVE_RIGHT  &kp LBKT             &kp RBKT      &trans                &trans           &trans        &kp ENTER
+&kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp RIGHT_ALT  &trans      &kp SPACE    &mkp LCLK        &kp SPACE            &kp ENTER     &trans                &kp RIGHT_SHIFT  &kp DELETE
             >;
 
-            display-name = "Accents";
+            display-name = "RUNES";
             sensor-bindings = <&scroll_encoder>;
         };
 
