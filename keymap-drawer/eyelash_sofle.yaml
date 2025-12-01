@@ -130,71 +130,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  DIGITS:
-  - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MULTIPLY
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - '%'
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP EQUAL
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
-  - KP DOT
-  - KP COMMA
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: MATRIX, h: toggle}
-  - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
   layer3:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,6 +195,71 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  DIGITS:
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - KP MINUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - '%'
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP EQUAL
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
+  - KP DOT
+  - KP COMMA
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: MATRIX, h: toggle}
+  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace-reverse-outline$$
   Genérico:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
