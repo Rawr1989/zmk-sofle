@@ -86,9 +86,9 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - AltGr+1
+  - {t: AltGr+/, s: 'AltGr+?'}
   - '?'
-  - RALT 1
+  - AltGr+1
   - '!'
   - '@'
   - {t: \, s: '|'}
@@ -102,8 +102,8 @@ layers:
   - (
   - )
   - _
-  - MINUS RALT
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: AltGr+-, s: AltGr+_}
+  - AltGr+N
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
