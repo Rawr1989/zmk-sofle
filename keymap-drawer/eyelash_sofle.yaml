@@ -86,7 +86,7 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RALT FSLH
+  - AltGr+1
   - '?'
   - RALT 1
   - '!'
