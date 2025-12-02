@@ -64,10 +64,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC     &kp F1    &kp F2        &kp F3        &kp F4       &kp F5       &mmv MOVE_UP     &trans        &trans     &trans            &trans           &trans      &kp BACKSPACE
-&kp TAB     &kp F6    &kp F7        &kp F8        &kp F9       &kp F10      &mmv MOVE_DOWN   &kp RA(FSLH)  &kp QMARK  &kp RA(NUMBER_1)  &kp EXCL         &kp AT      &kp BSLH
-&kp LSHFT   &kp F11   &kp F12       &trans        &trans       &trans       &mmv MOVE_LEFT   &kp LPAR      &kp RPAR   &kp UNDERSCORE    &kp RA(MINUS)    &kp RA(N)   &kp APOS
-&kp LCTRL   &trans    &kp K_UNDO    &kp K_CUT     &kp K_PASTE  &trans       &mmv MOVE_RIGHT  &kp LBKT      &kp RBKT   &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans      &kp ENTER
+&kp ESC     &trans    &trans        &trans        &trans  &trans       &mmv MOVE_UP     &trans        &trans     &trans            &trans           &trans      &kp BACKSPACE
+&kp TAB     &trans    &trans        &trans        &trans  &trans       &mmv MOVE_DOWN   &kp RA(FSLH)  &kp QMARK  &kp RA(NUMBER_1)  &kp EXCL         &kp AT      &kp BSLH
+&kp LSHFT   &trans    &trans        &trans        &trans  &trans       &mmv MOVE_LEFT   &kp LPAR      &kp RPAR   &kp UNDERSCORE    &kp RA(MINUS)    &kp RA(N)   &kp APOS
+&kp LCTRL   &trans    &trans        &trans        &trans  &trans       &mmv MOVE_RIGHT  &kp LBKT      &kp RBKT   &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans      &kp ENTER
 &kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &trans       &kp SPACE    &mkp LCLK        &kp SPACE     &kp ENTER  &trans            &kp RIGHT_SHIFT  &kp DELETE
             >;
 
@@ -77,14 +77,14 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC     &kp F1    &kp F2        &kp F3        &kp F4       &kp F5       &mmv MOVE_UP     &trans        &trans     &trans  &trans           &trans    &kp BACKSPACE
+&kp TAB     &kp F6    &kp F7        &kp F8        &kp F9       &kp F10      &mmv MOVE_DOWN   &trans        &trans     &trans  &trans           &trans    &kp BSLH
+&kp LSHFT   &kp F11   &kp F12       &trans        &trans       &trans       &mmv MOVE_LEFT   &trans        &trans     &trans  &trans           &trans    &kp APOS
+&kp LCTRL   &trans    &kp K_UNDO    &kp K_CUT     &kp K_PASTE  &trans       &mmv MOVE_RIGHT  &trans        &trans     &trans  &trans           &trans    &kp ENTER
+&kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &trans       &kp SPACE    &mkp LCLK        &kp SPACE     &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
-            display-name = "layer3";
+            display-name = "SIGILS";
             sensor-bindings = <&scroll_encoder>;
         };
 
