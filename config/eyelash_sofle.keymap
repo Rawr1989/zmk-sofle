@@ -78,9 +78,9 @@
         layer_2 {
             bindings = <
 &kp ESC     &trans    &trans        &trans        &trans       &trans       &mmv MOVE_UP     &trans        &trans     &trans  &trans           &trans    &kp BACKSPACE
-&kp TAB     &trans    &trans        &trans        &trans       &trans       &mmv MOVE_DOWN   &trans        &trans     &trans  &trans           &trans    &kp BSLH
-&kp LSHFT   &kp LC(Z) &kp LC(LS(Z)) &trans        &trans       &trans       &mmv MOVE_LEFT   &trans        &trans     &trans  &trans           &trans    &kp APOS
-&kp LCTRL   &kp LC(X) &kp LC(C)     &kp LC(V)     &trans       &trans       &mmv MOVE_RIGHT  &trans        &trans     &trans  &trans           &trans    &kp ENTER
+&kp TAB     &trans    &trans        &kp PSCR      &kp HOME     &kp END      &mmv MOVE_DOWN   &trans        &trans     &trans  &trans           &trans    &kp BSLH
+&kp LSHFT   &kp LC(Z) &kp LC(LS(Z)) &kp LC(S)     &kp LC(F)    &kp PG_UP    &mmv MOVE_LEFT   &trans        &trans     &trans  &trans           &trans    &kp APOS
+&kp LCTRL   &kp LC(X) &kp LC(C)     &kp LC(V)     &trans       &kp PG_DN    &mmv MOVE_RIGHT  &trans        &trans     &trans  &trans           &trans    &kp ENTER
 &kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &trans       &kp SPACE    &mkp LCLK        &kp SPACE     &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
