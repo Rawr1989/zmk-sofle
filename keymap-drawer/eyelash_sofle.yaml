@@ -147,7 +147,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PSCR
+  - $$mdi:printer-outline$$
   - HOME
   - END
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
