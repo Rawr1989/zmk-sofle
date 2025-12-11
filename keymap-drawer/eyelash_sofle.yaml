@@ -138,7 +138,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '&rgb_tog'
+  - RGB HUI
   - '&rgb_eff'
   - '&rgb_hue_up'
   - '&rgb_hue_down'
