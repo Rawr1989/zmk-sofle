@@ -79,11 +79,11 @@
 
         layer_2 {
             bindings = <
-&kp ESC     &trans     &trans         &trans        &trans     &trans       &mmv MOVE_UP     &rgb_ug RGB_HUI  &rgb_eff       &rgb_hue_up  &rgb_hue_down    &trans      &kp BACKSPACE
-&kp TAB     &trans     &trans         &kp PSCRN     &kp HOME   &kp END      &mmv MOVE_DOWN   &rgb_bri_up      &rgb_bri_down  &rgb_sat_up  &rgb_sat_down    &trans      &kp BSLH
-&kp LSHFT   &kp LC(Z)  &kp LC(LS(Z))  &kp LC(S)     &kp LC(F)  &kp PG_UP    &mmv MOVE_LEFT   &rgb_reset       &trans         &trans       &trans           &trans      &kp APOS
-&kp LCTRL   &kp LC(X)  &kp LC(C)      &kp LC(V)     &trans     &kp PG_DN    &mmv MOVE_RIGHT  &trans           &trans         &trans       &trans           &trans      &kp ENTER
-&kp C_MUTE  &kp CAPS   &kp LEFT_GUI   &kp LEFT_ALT  &trans     &kp SPACE    &mkp LCLK        &kp SPACE        &kp ENTER      &trans       &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &trans     &trans         &trans        &trans     &trans       &mmv MOVE_UP     &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans      &kp BACKSPACE
+&kp TAB     &trans     &trans         &kp PSCRN     &kp HOME   &kp END      &mmv MOVE_DOWN   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans      &kp BSLH
+&kp LSHFT   &kp LC(Z)  &kp LC(LS(Z))  &kp LC(S)     &kp LC(F)  &kp PG_UP    &mmv MOVE_LEFT   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &trans           &trans      &kp APOS
+&kp LCTRL   &kp LC(X)  &kp LC(C)      &kp LC(V)     &trans     &kp PG_DN    &mmv MOVE_RIGHT  &trans           &trans           &trans           &trans           &trans      &kp ENTER
+&kp C_MUTE  &kp CAPS   &kp LEFT_GUI   &kp LEFT_ALT  &trans     &kp SPACE    &mkp LCLK        &kp SPACE        &kp ENTER        &trans           &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             display-name = "SIGILS";
@@ -95,7 +95,7 @@
 &kp ESC     &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp KP_SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp BACKSPACE
 &kp TAB     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp KP_MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp BSLH
 &kp LSHFT   &trans        &trans          &trans        &trans        &trans          &mmv MOVE_LEFT   &kp PRCNT     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp APOS
-&kp LCTRL   &trans        &trans          &trans        &reset        &soft_off       &mmv MOVE_RIGHT  &trans        &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_COMMA     &kp ENTER        &to 0
+&kp LCTRL   &trans        &trans          &trans        &sys_reset    &soft_off       &mmv MOVE_RIGHT  &trans        &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_COMMA     &kp ENTER        &to 0
 &kp C_MUTE  &kp CAPS      &kp LEFT_GUI    &kp LEFT_ALT  &trans        &kp SPACE       &mkp LCLK        &kp SPACE     &kp ENTER        &trans           &kp RIGHT_SHIFT  &kp DELETE
             >;
 
