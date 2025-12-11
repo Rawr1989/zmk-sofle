@@ -94,7 +94,7 @@
             bindings = <
 &kp ESC     &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp KP_SLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp BACKSPACE
 &kp TAB     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp KP_MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp BSLH
-&kp LSHFT   &trans        &trans          &trans        &trans        &trans          &mmv MOVE_LEFT   &kp PRCNT     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp APOS
+&kp LSHFT   &trans        &trans          &trans        &to 4         &trans          &mmv MOVE_LEFT   &kp PRCNT     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp APOS
 &kp LCTRL   &trans        &trans          &trans        &sys_reset    &soft_off       &mmv MOVE_RIGHT  &trans        &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_COMMA     &kp ENTER        &to 0
 &kp C_MUTE  &kp CAPS      &kp LEFT_GUI    &kp LEFT_ALT  &trans        &kp SPACE       &mkp LCLK        &kp SPACE     &kp ENTER        &trans           &kp RIGHT_SHIFT  &kp DELETE
             >;
@@ -108,7 +108,7 @@
 &kp ESC     &kp N1    &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8         &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q     &kp W         &kp F         &kp P      &kp B        &kp DOWN_ARROW   &kp J      &kp L      &kp U          &kp Y            &kp SEMI    &kp BSLH
 &kp LSHFT   &kp A     &kp R         &kp S         &kp T      &kp G        &kp LEFT_ARROW   &kp M      &kp N      &kp E          &kp I            &kp O       &kp APOS
-&kp LCTRL   &kp Z     &kp X         &kp C         &kp D      &kp V        &kp RIGHT_ARROW  &kp K      &kp H      &kp COMMA      &kp DOT          &kp FSLH    &kp ENTER
+&kp LCTRL   &kp Z     &kp X         &kp C         &kp D      &kp V        &kp RIGHT_ARROW  &kp K      &kp H      &kp COMMA      &kp DOT          &kp FSLH    &to 0
 &kp C_MUTE  &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &kp SPACE    &kp ENTER        &kp SPACE  &kp SPACE  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
