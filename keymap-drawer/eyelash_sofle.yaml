@@ -257,7 +257,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - NUMLOCK
+  - KP NUMLOCK
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   GAMER:
