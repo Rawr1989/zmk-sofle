@@ -96,7 +96,7 @@
 &kp TAB     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp KP_MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp BSLH
 &kp LSHFT   &trans        &trans          &trans        &to 4         &trans          &mmv MOVE_LEFT   &kp PRCNT     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp APOS
 &kp LCTRL   &trans        &trans          &trans        &sys_reset    &soft_off       &mmv MOVE_RIGHT  &trans        &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_COMMA     &kp ENTER        &to 0
-&kp C_MUTE  &kp CAPS      &kp LEFT_GUI    &kp LEFT_ALT  &trans        &kp SPACE       &mkp LCLK        &kp SPACE     &kp ENTER        &trans           &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE  &kp CAPS      &kp LEFT_GUI    &kp LEFT_ALT  &trans        &kp SPACE       &mkp LCLK        &kp SPACE     &kp ENTER        &kp NUMLOCK      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             display-name = "DIGITS";
